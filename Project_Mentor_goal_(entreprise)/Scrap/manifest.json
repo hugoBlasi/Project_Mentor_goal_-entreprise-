@@ -1,0 +1,215 @@
+
+{
+    "manifest_version": 3,
+    "name": "Mentor goal",
+    "description": "Test",
+    "version": "1.0",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    
+    "action":{
+      "default_icon":{
+        "16": "images/LogoMG.png",
+        "24": "images/LogoMG.png",
+        "32": "images/LogoMG.png",
+        "48": "images/LogoMG.png",
+        "128": "images/LogoMG.png"
+      },
+      "icons":{
+        "16": "images/LogoMG.png",
+        "24": "images/LogoMG.png",
+        "32": "images/LogoMG.png",
+        "48": "images/LogoMG.png",
+        "128": "images/LogoMG.png"
+      },
+      "default_popup":"test.html"
+    },
+
+  
+    "content_scripts": [ 
+      {
+          "matches":[
+              "https://app.mentorgoal.com/*"
+          ],
+          "js": ["js/Mg.js"],
+          "css": ["css/Mg.css"],
+          "img": ["img/"]
+      },
+
+      {
+      "matches":[
+          "https://www.linkedin.com/in/*"
+      ],
+      "js": ["js/extension_Linkedin.js"],
+      "css": ["css/extension.css"]
+
+
+      },
+
+      {
+        "matches":[
+            "https://www.monster.fr/*"
+        ],
+        "js": ["js/jobboard_monster.js"],
+        "css": ["css/jobboard.css"]
+  
+  
+        },
+
+        {
+          "matches":[
+              "https://www.welcometothejungle.com/*"
+          ],
+          "js": ["js/jobboard_wttj.js"],
+          "css": ["css/jobboard.css"]
+    
+    
+          },
+
+          {
+            "matches":[
+              "https://www.regionsjob.com/*"
+            ],
+            "js": ["js/jobboard_rj.js"],
+            "css": ["css/jobboard.css"]
+      
+      
+            },
+
+            {
+              "matches":[
+                "https://www.lesjeudis.com/*"
+              ],
+              "js": ["js/jobboard_lj.js"],
+              "css": ["css/jobboard.css"]
+        
+        
+              },
+
+              {
+                "matches":[
+                  "https://www.apec.fr/*"
+                ],
+                "js": ["js/jobboard_apec.js"],
+                "css": ["css/jobboard.css"]
+          
+          
+                },
+
+                {
+                  "matches":[
+                    "https://jobs-stages.letudiant.fr/*"
+                  ],
+                  "js": ["js/jobboard_jsl.js"],
+                  "css": ["css/jobboard.css"]
+            
+            
+                  },
+
+                  {
+                    "matches":[
+                      "https://www.jobirl.com/*"
+                    ],
+                    "js": ["js/jobboard_jobirl.js"],
+                    "css": ["css/jobboard.css"]
+              
+              
+                    },
+
+                    {
+                      "matches":[
+                        "https://walt.community/*"
+                      ],
+                      "js": ["js/jobboard_walt.js"],
+                      "css": ["css/jobboard.css"]
+                
+                
+                      },
+
+                      {
+                        "matches":[
+                          "https://www.jobteaser.com/*" 
+                        ],
+                        "js": ["js/jobboard_jobteaser.js"],
+                        "css": ["css/jobboard.css"]
+                  
+                  
+                        },
+
+                        {
+                          "matches":[
+                            "https://www.optioncarriere.com/*"
+                          ],
+                          "js": ["js/jobboard_oc.js"],
+                          "css": ["css/jobboard.css"]
+                    
+                    
+                          },
+
+                          {
+                            "matches":[
+                              "https://www.sportjobshunter.com/*"
+                            ],
+                            "js": ["js/jobboard_sjh.js"],
+                            "css": ["css/jobboard.css"]
+                      
+                      
+                            },
+
+                            {
+                              "matches":[
+                                "https://jobs.makesense.org/*"
+                              ],
+                              "js": ["js/jobboard_jm.js"],
+                              "css": ["css/jobboard.css"]
+                        
+                        
+                              },
+
+                              {
+                                "matches":[
+                                  "https://www.keljob.com/*"
+                                ],
+                                "js": ["js/jobboard_keljob.js"],
+                                "css": ["css/jobboard.css"]
+                          
+                          
+                                },
+
+                                {
+                                  "matches":[
+                                    "https://www.cadreo.com/*"
+                                  ],
+                                  "js": ["js/jobboard_cadreo.js"],
+                                  "css": ["css/jobboard.css"]
+                            
+                            
+                                  },
+
+
+                                    {
+                                      "matches":[
+                                        "https://www.wizbii.com/*"
+                                      ],
+                                      "js": ["js/jobboard_wizbii.js"],
+                                      "css": ["css/jobboard.css"]
+                                
+                                
+                                      }
+                                     
+                                        
+
+                                           
+                                           
+
+                                              
+
+
+
+  ]
+
+
+}

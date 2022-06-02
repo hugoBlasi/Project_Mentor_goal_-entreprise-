@@ -1,0 +1,85 @@
+#all{
+    display: flex;
+    text-align: center;
+      margin : 10px 0px;
+      padding : 50px 20px; 
+      position: absolute;
+      width: 360px;
+      height: 488px;
+      right: 56px;
+      bottom: 56px;
+      z-Index : 100;
+      background-Color : white;
+      border-Color : rgb(42, 64, 84); 
+      box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.04), 1px 3px 32px rgba(42, 64, 84, 0.08);
+      border-radius: 16px;
+  }
+  
+  #all #content{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #close {
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 8px;
+    bottom: 8px;
+    filter: drop-shadow(0px 0px 4px rgba(14, 21, 28, 0.04)) drop-shadow(1px 2px 24px rgba(42, 64, 84, 0.06));
+    border-radius: 8px;
+    z-index: 200;
+  }
+  
+  #opnext {
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 8px;
+    bottom: 8px;
+    filter: drop-shadow(0px 0px 4px rgba(14, 21, 28, 0.04)) drop-shadow(1px 2px 24px rgba(42, 64, 84, 0.06));
+    border-radius: 8px;
+    z-index: 100;
+  }
+   
+  
+  #content h1{
+  
+    color: #2A4054;
+    font-Size: 18px;
+    font-style: normal;
+    font-family: Mulish;
+    font-weight: bold;
+  }
+  #content h2{
+    font-size: 16px;
+    color: #A3B5C5;
+    font-style: normal;
+    font-family: Mulish;
+  }
+  
+  
+  #poriginel p{
+    font-size: 16px;
+    font-style: normal;
+    font-family: Mulish;
+     color: #466A8B;
+  }
+  
+  #logo{
+  margin-bottom: 25px;
+    position: static;
+    border-radius: 8px;
+  }
+  
+  #btnclose {
+    position : fixed;
+    width : 80px;
+    min-Height : 50px;
+    bottom : 20px;
+    right : 10px;
+    z-Index : 100;
+    border-Radius : 10%;
+  }
